@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="projects.boldurbogdan.mymediaplayer">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectSongsForPLaylist"
+            android:excludeFromRecents="true" />
+        <activity
+            android:name=".PlaylistSongs"
+            android:excludeFromRecents="true" />
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true"
+            android:exported="false"
+            android:stopWithTask="true" />
+
+        <activity
+            android:name=".CurrentlyPlayingActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance" />
+
+        <receiver
+            android:name=".NotificationReceiver"
+            android:label="@string/appname">
+            <intent-filter>
+                <action android:name="projects.boldurbogdan.ACTION_PLAY_PLAY" />
+                <action android:name="projects.boldurbogdan.ACTION_PLAY_FORWARD" />
+                <action android:name="projects.boldurbogdan.ACTION_PLAY_BACKWARDS" />
+                <action android:name="projects.boldurbogdan.ACTION_PLAY_EXIT" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".DeleteSongsFromPlaylist" />
+        <activity android:name=".WebActivityForYoutube"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/musiccontroller_bg"
+    android:id="@+id/mediacontroller"
+    >
+
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/play"
+        android:background="@drawable/play"
+        android:layout_alignTop="@+id/go_next_song"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/go_previous_song"
+        android:background="@drawable/go_previous_song"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/songPlaying"
+        android:layout_alignStart="@+id/songPlaying" />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/go_next_song"
+        android:background="@drawable/go_next_song"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/songPlaying"
+        android:layout_alignEnd="@+id/songPlaying" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Song name"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="@android:integer/config_shortAnimTime"
+        android:id="@+id/songPlaying"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        android:layout_above="@+id/play"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+</RelativeLayout>

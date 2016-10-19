@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SelectSongsForPLaylist">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_for_adding_items_to_playlist"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#fffafa"
+        android:overScrollFooter="#2d9db6"
+        android:smoothScrollbar="true"
+        android:dividerHeight="1dp"
+        android:layout_below="@+id/sort_songs_for_adding_to_playlist" />
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/toolbar_for_app"
+        android:id="@+id/include" />
+    <include
+        android:layout_alignBottom="@id/listview_for_adding_items_to_playlist"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        layout="@layout/footer_view_for_adding_songs_to_playists"/>
+
+    <android.support.v7.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sort_songs_for_adding_to_playlist"
+        android:backgroundTint="#1c1818"
+        android:layout_below="@+id/include"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </android.support.v7.widget.SearchView>
+</RelativeLayout>

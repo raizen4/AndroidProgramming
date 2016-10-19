@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="name of the songvfvvvddvdfdgdfdgdg"
+        android:id="@+id/name_of_the_song"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold|italic"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="@android:integer/config_shortAnimTime"
+        android:singleLine="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+   <ImageView
+       android:layout_width="60dp"
+       android:layout_height="60dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="false"
+       android:id="@+id/image_of_the_song"
+       android:layout_toLeftOf="@+id/name_of_the_song"
+       android:layout_toStartOf="@+id/name_of_the_song" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="duration"
+        android:textColor="@android:color/holo_blue_light"
+        android:id="@+id/duration"
+        android:layout_above="@+id/Artist"
+        android:layout_toRightOf="@+id/image_of_the_song"
+        android:layout_toEndOf="@+id/image_of_the_song" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Artist"
+        android:textColor="@android:color/holo_blue_light"
+        android:id="@+id/Artist"
+        android:layout_below="@+id/image_of_the_song"
+        android:layout_toRightOf="@+id/image_of_the_song"
+        android:layout_toEndOf="@+id/image_of_the_song" />
+
+    <CheckBox
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:checked="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignBottom="@+id/image_of_the_song"
+        android:layout_toRightOf="@+id/name_of_the_song"
+        android:layout_toEndOf="@+id/name_of_the_song" />
+
+</RelativeLayout>

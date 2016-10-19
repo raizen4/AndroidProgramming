@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="projects.boldurbogdan.mymediaplayer.SongsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:id="@+id/listView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="150dp"
+        android:background="#fffafa"
+        android:overScrollFooter="#2d9db6"
+        android:smoothScrollbar="true"
+        android:dividerHeight="1dp" />
+
+    <android.support.v7.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sort_songs_for_adding_to_playlist"
+        android:layout_marginTop="106dp"
+        android:backgroundTint="#1c1818">
+    </android.support.v7.widget.SearchView>
+
+</RelativeLayout>
