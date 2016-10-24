@@ -4,7 +4,7 @@
 -As a music downloader app, you can search any song which can be found on youtube and download(almost) any of them straightaway by pressing download button( you can also see the song's video if you want first, to make sure that is the one you were searching for by pressing the play button)<br />
 -Music can play in the background without any problem<br />
 -You can filter the songs if you search for something specific( working only for songs fragment(I'll put it for playlists as well) when i have some more time.<br />
-# Note that there is a little bug when the app is first opened(i let it the last). In order the app to show you the songs, after you first give it permissions required, you have to restart the app.<br />
+# Note that there is a little bug when the app is first opened(i let it the last as it is just a line of code). In order the app to show you the songs, after you first give it permissions required, you have to restart the app.<br />
 
 Components used in app development:<br />
 -activities and fragments( and their lifecycles)<br />
