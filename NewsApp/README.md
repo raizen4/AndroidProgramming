@@ -6,14 +6,7 @@ will give you the most important feeds about what you searched(there are 10 resu
 -you can read what you saved if you have internet.<br />
 -IT REQUIRES INTERNET!<br />
 -A few photos of it(excuse the poor design, I wanted to focus primarly on the functionalities)<br />
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-15-48.png)
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-15-59.png)
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-16-07.png)
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-16-32.png)
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-16-49.png)
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-16-52.png)
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-16-56.png)
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-17-03.png)
+
 
 What components were used to make this app:<br />
 -Activities<br />
@@ -25,3 +18,13 @@ What components were used to make this app:<br />
 -custom made and standard adapters<br />
 -SQL database<br />
 -Custom made alert dialogs<br />
+
+![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-15-48.png)
+![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-15-59.png)
+![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-16-07.png)
+![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-16-32.png)
+![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-16-49.png)
+![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-16-52.png)
+![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-16-56.png)
+![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/NewsApp/Screenshot_2016-10-20-11-17-03.png)
+
