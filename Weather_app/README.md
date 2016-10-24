@@ -11,8 +11,6 @@ Components used for this app:
 -Async tasks for weather data retrieval(To make requests i created a manual connection)
 
 A few photos:
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/Weather_app/Screen%20Shot%202016-10-24%20at%2010.15.12.png)
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/Weather_app/Screen%20Shot%202016-10-24%20at%2010.15.47.png)
 ![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/Weather_app/Screen%20Shot%202016-10-24%20at%2010.22.05.png)
 ![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/Weather_app/Screen%20Shot%202016-10-24%20at%2010.22.39.png)
 ![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/Weather_app/Screen%20Shot%202016-10-24%20at%2010.22.49.png)
