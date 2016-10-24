@@ -1,6 +1,6 @@
 # NewsAPP
--This application acts as an RSS feeder. In the first screen you are prompted to make a query so the application
-will give you the most important feeds about what you searched(there are 10 results by default). The result will be shown each with name and photo(Attention!! the photos will lazy load,so until there is one available( I had to parse the html and find one as the default api doesn't give any thumbnail), a placeholder will be shown)
+<pr>-This application acts as an RSS feeder. In the first screen you are prompted to make a query so the application
+will give you the most important feeds about what you searched(there are 10 results by default). The result will be shown each with name and photo(Attention!! the photos will lazy load,so until there is one available( I had to parse the html and find one as the default api doesn't give any thumbnail), a placeholder will be shown)</pr>
 -The app usses Google Ajax API for the feeds.
 -The app alows saving the articles or blogs or whatever the result is in a local database as well as it lets you share the result on other apps.
 -you can read what you saved if you have internet.
