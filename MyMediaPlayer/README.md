@@ -21,7 +21,7 @@ Components used in app development:<br />
 
 
 A few photos:<br />
-
+<img src="https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Capture%2B_2016-10-20-01-23-30.png"  width="200" height="200">
 ![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Capture%2B_2016-10-20-01-23-30.png)
 
 ![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Capture%2B_2016-10-20-01-23-39.png)
