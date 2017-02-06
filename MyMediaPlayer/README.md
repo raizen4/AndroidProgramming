@@ -22,14 +22,15 @@ Components used in app development:<br />
 
 A few photos:<br />
 <img src="https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Capture%2B_2016-10-20-01-23-30.png"  width="200" height="400">
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Capture%2B_2016-10-20-01-23-30.png)
 
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Capture%2B_2016-10-20-01-23-39.png)
 
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Capture%2B_2016-10-20-01-23-56.png)
+<img src="https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Capture%2B_2016-10-20-01-23-39.png"  width="200" height="400">
 
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Capture%2B_2016-10-20-01-24-59.png)
+<img src="https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Capture%2B_2016-10-20-01-23-56.png"  width="200" height="400">
 
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Capture%2B_2016-10-20-11-10-33.png)
+<img src="https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Capture%2B_2016-10-20-01-24-59.png"  width="200" height="400">
 
-![Problem loading](https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Screenshot_2016-10-20-11-11-40.png)
+<img src="https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Capture%2B_2016-10-20-11-10-33.png"  width="200" height="400">
+
+<img src="https://github.com/raizen4/AndroidProgramming/blob/master/MyMediaPlayer/Screenshot_2016-10-20-11-11-40.png"  width="200" height="400">
+
